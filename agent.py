@@ -4,8 +4,7 @@ import numpy as np
 from a2c import *
 from truss_environment import *
 
-print('set')
-print('set_2')
+
 state_size = [64,64]
 base_env = env(state_size)
 grid_size = 32*32
